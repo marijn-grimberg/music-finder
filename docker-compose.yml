@@ -1,0 +1,22 @@
+version: '2'
+services:
+  database:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - 27017
+    networks:
+      - spring-cloud-network
+  music-finder:
+    container_name: music-finder
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rockstars/music-finder:latest
+    ports:
+      - 8080:8080
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge

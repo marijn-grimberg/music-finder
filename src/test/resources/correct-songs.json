@@ -1,0 +1,23 @@
+[{
+  "Id": 190,
+  "Name": "(Don't Fear) The Reaper",
+  "Year": 1975,
+  "Artist": "Blue Öyster Cult",
+  "Shortname": "dontfearthereaper",
+  "Bpm": 141,
+  "Duration": 322822,
+  "Genre": "Classic Rock",
+  "SpotifyId": "5QTxFnGygVM4jFQiBovmRo",
+  "Album": "Agents of Fortune"
+}, {
+  "Id": 1363,
+  "Name": "(Funky) Sex Farm",
+  "Year": 2009,
+  "Artist": "Spinal Tap",
+  "Shortname": "funkysexfarm",
+  "Bpm": 107,
+  "Duration": 260068,
+  "Genre": "Metal",
+  "SpotifyId": "1VfdMD8JguRISrccgLifIZ",
+  "Album": "Back From The Dead"
+}]
